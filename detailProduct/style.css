@@ -39,6 +39,7 @@ ul.header-menu li {
 .img-search input:focus {
   outline: none;
   color: #6a4029;
+  /* color: #6a4029; */
 }
 .form-control:focus {
   box-shadow: 0 0 0 0.2rem rgba(110, 62, 33, 0.274);

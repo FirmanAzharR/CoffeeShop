@@ -450,7 +450,7 @@ ul.kind-item li.item-name {
     margin: 20px;
   }
   .container footer {
-    padding-top: 40px;
+    padding-top: 40%;
     flex-direction: column;
   }
   .footer-background {
@@ -460,8 +460,40 @@ ul.kind-item li.item-name {
   footer .footer-engage {
     border-top: 1px solid #dbdbdb;
   }
-  .check-out,
   .checkout-item {
-    display: none;
+    position: relative;
+    right: 30%;
+  }
+  .checkout-item .card {
+    width: auto;
+    height: auto;
+  }
+
+  .checkout-item .card .card-body .checkout-text {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .checkout-item .card .card-body .checkout-img img {
+    width: 60px;
+  }
+  .checkout-total button {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 8px;
+  }
+  .checkout-total label {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .check-out {
+    position: relative;
+    left: 70%;
+    top: 30px;
+  }
+  .check-out button {
+    padding: 20px;
+    font-size: 15px;
+    height: auto;
   }
 }

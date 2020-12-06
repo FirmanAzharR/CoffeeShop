@@ -39,7 +39,7 @@ ul.header-menu li a {
 ul.header-menu li a:hover {
   font-weight: 500;
 }
-ul.header-menu li.cart a {
+ul.header-menu li.history a {
   font-weight: bold;
 }
 .header-menu li.img-user img {

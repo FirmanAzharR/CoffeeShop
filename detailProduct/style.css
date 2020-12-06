@@ -460,4 +460,8 @@ ul.kind-item li.item-name {
   footer .footer-engage {
     border-top: 1px solid #dbdbdb;
   }
+  .check-out,
+  .checkout-item {
+    display: none;
+  }
 }

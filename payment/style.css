@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Rubik:wght@300;400;500;600;700&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.container-fluid {
+  padding: 0px;
+}
+.container-fluid header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+ul.header-brand li {
+  display: inline-block;
+}
+ul.header-brand li.text {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+ul.header-brand li.logo {
+  margin-right: 8px;
+}
+
+ul.header-menu li {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  padding-right: 30px;
+  width: auto;
+}
+ul.header-menu li a {
+  text-decoration: none;
+  color: #6a4029;
+}
+ul.header-menu li a:hover {
+  font-weight: 500;
+}
+ul.header-menu li.cart a {
+  font-weight: bold;
+}
+.header-menu li.img-user img {
+  border-radius: 50%;
+}
+.img-search input {
+  border-radius: 30px;
+  background-color: #efeeee;
+  border: none;
+  text-align: center;
+}
+.img-chat span.badge {
+  width: 15px;
+  height: 15px;
+  background-color: #6a4029;
+  color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 28px;
+  right: 15.5%;
+}
+.img-search input:focus {
+  outline: none;
+  color: #6a4029;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(110, 62, 33, 0.274);
+  background-color: #dbdbdb;
+}
+.img-search img {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/bg.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .container {
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+.container .progres-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.add-space {
+  margin-right: 115px;
+  margin-left: 115px;
+}
+.label-space {
+  padding-left: 90px;
+  padding-right: 80px;
+}
+.progres-bar .circle-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 2;
+}
+.circle-icon .check-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #2fab73;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.check-icon span {
+  color: white;
+  position: relative;
+  top: -2px;
+  left: 4px;
+}
+.circle-icon .uncheck-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #6a4029;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.progres-bar .progres-line {
+  padding: 1px;
+  background-color: white;
+  width: 23%;
+  height: 1px;
+  position: absolute;
+  left: 39%;
+  top: 24%;
+}
+.label-progres {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+}
+.label-progres label {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+aside h2.title {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  width: 350px;
+  text-shadow: 3px 3px 3px #313131;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+aside .card {
+  border-radius: 20px;
+  max-width: 487px;
+  padding: 20px;
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+.card-body .summary {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  color: #362115;
+}
+ul.list-item {
+  list-style: none;
+}
+.subtotal .price ul,
+.label ul {
+  padding: 0;
+  list-style-type: none;
+  color: #362115;
+  line-height: 35px;
+}
+.subtotal .price {
+  text-align: left;
+}
+.row.total {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #362115;
+}
+
+.row.total .price-total {
+  text-align: right;
+}
+
+section .address-payment {
+  margin-top: 200px;
+  margin-left: 70px;
+}
+.address-payment .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 3px 3px 3px #313131;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.address-payment .title .edit-address {
+  font-size: 15px;
+}
+.address-payment .card {
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.address-payment .card .card-body {
+  padding-top: 30px;
+}
+
+.address-payment ul {
+  list-style: none;
+  line-height: 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.address-payment ul li {
+  border-bottom: 1px solid #c9c9c9;
+  padding: 10px 0px 10px 0px;
+}
+.address-payment ul li.method-pay {
+  display: flex;
+}
+li.method-pay input {
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 1px solid #895537;
+}
+
+.method-pay .fas {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+.method-pay .fas.fa-credit-card {
+  background-color: #f47b0a;
+}
+.method-pay .fas.fa-university {
+  background-color: #895537;
+}
+.method-pay .fas.fa-truck {
+  background-color: #ffba33;
+}
+.address-payment button {
+  background-color: #6a4029;
+  width: 452px;
+  height: 84px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+}
+
+.container footer {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+
+.footer-background {
+  background-color: #f8f8f8;
+}
+
+footer .footer-profile {
+  flex: 4;
+}
+
+footer .footer-product {
+  flex: 1;
+  height: 50px;
+}
+
+footer .footer-engage {
+  flex: 1;
+}
+
+ul.footer-brand li {
+  display: inline-block;
+}
+
+ul.footer-medsos li {
+  display: inline-block;
+  width: 50px;
+}
+
+ul.footer-brand li.text,
+.label-engage,
+.label-product {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.footer-profile p.profile-text {
+  padding-left: 40px;
+  line-height: 30px;
+  font-family: "Rubik", sans-serif;
+  color: #4f5665;
+  font-weight: 400;
+}
+.footer-profile p.text-copy {
+  font-family: "Rubik", sans-serif;
+  padding-left: 40px;
+  color: darkgrey;
+  font-size: 16px;
+}
+footer .footer-product,
+footer .footer-engage {
+  list-style-type: none;
+  line-height: 40px;
+  font-family: "Rubik", sans-serif;
+  color: #4f5665;
+  font-weight: 400;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .container-fluid header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header ul {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  header ul.header-brand {
+    margin: 20px;
+  }
+
+  ul.header-brand li.text {
+    font-size: 30px;
+  }
+  ul.header-menu li {
+    padding-top: 20px;
+    padding-right: 20px;
+    width: auto;
+  }
+  ul.header-menu li.img-user {
+    padding-right: 0px;
+  }
+  .img-search img {
+    display: none;
+  } */
+  .container-fluid header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header ul {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  header ul.header-brand {
+    margin: 20px;
+  }
+  ul.header-brand li.text {
+    font-size: 30px;
+  }
+  ul.header-menu li {
+    padding-top: 20px;
+  }
+  .img-search img {
+    display: none;
+  }
+  .container footer {
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  .footer-background {
+    background-color: #f2f2f2;
+  }
+  footer .footer-product,
+  footer .footer-engage {
+    border-top: 1px solid #dbdbdb;
+  }
+  /* 
+  main 
+  */
+  .progres-bar .progres-line {
+    /* width: 50%;
+    left: 25%;
+    top: 53.5%; */
+    display: none;
+  }
+  aside h2.title {
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+  }
+  .card-body .summary {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  aside .card {
+    padding: 10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .row .img img {
+    max-width: 130%;
+  }
+  .row.total {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .subtotal .price {
+    text-align: center;
+  }
+  aside .card {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  section .address-payment {
+    margin-top: 20px;
+    margin-left: auto;
+  }
+  .address-payment .title {
+    font-size: 18px;
+  }
+  .address-payment .card .card-body ul {
+    font-size: 15px;
+  }
+  .address-payment button {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: #f47b0a;
+  }
+  .img-chat span.badge {
+    top: 175px;
+    right: 38%;
+  }
+}

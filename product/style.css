@@ -29,13 +29,22 @@ ul.header-brand li {
   top: 28px;
   right: 15.5%;
 }
-
 ul.header-menu li {
   display: inline-block;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   padding-right: 30px;
   width: auto;
+}
+ul.header-menu li a {
+  text-decoration: none;
+  color: #6a4029;
+}
+ul.header-menu li a:hover {
+  font-weight: 500;
+}
+ul.header-menu li.home a {
+  font-weight: bold;
 }
 .header-menu li.img-user img {
   border-radius: 50%;

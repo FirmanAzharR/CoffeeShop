@@ -19,6 +19,16 @@ ul.header-brand li {
   font-weight: bold;
   font-size: 20px;
 }
+.img-chat span.badge {
+  width: 15px;
+  height: 15px;
+  background-color: #6a4029;
+  color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 28px;
+  right: 15.5%;
+}
 
 ul.header-menu li {
   display: inline-block;
@@ -143,6 +153,14 @@ section .card-menu {
   width: 80%;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+.card-menu span.badge {
+  position: absolute;
+  z-index: 2;
+  left: 60%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 .card-menu .name-menu {
   font-weight: 900;
@@ -308,5 +326,12 @@ footer .footer-engage {
   footer .footer-product,
   footer .footer-engage {
     border-top: 1px solid #dbdbdb;
+  }
+  .card-menu span.badge {
+    left: 70%;
+  }
+  .img-chat span.badge {
+    top: 175px;
+    right: 38%;
   }
 }

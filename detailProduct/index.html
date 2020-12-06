@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffe Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <ul class="header-brand">
+          <li class="logo">
+            <img src="img/coffee-logo.png" alt="coffee-logo" />
+          </li>
+          <li class="text">Coffe Shop</li>
+        </ul>
+        <ul class="header-menu">
+          <li>Home</li>
+          <li>Product</li>
+          <li>Your Chart</li>
+          <li>History</li>
+          <li class="img-search">
+            <img src="img/input-search.png" alt="icon" />
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              id="search"
+            />
+          </li>
+          <li class="img-chat"><img src="img/chat.png" alt="chat" /></li>
+          <li class="img-user"><img src="img/user.png" alt="account" /></li>
+        </ul>
+      </header>
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <aside>
+                <div>
+                  <div class="nav-aside">
+                    <div class="nav">Favorite & Promo</div>
+                    <div class="nav-active">> Cold Brew</div>
+                  </div>
+                  <div class="product-item">
+                    <img src="img/detail-img.png" alt="image-item" />
+                    <div class="detail">
+                      <label class="name-product">COLD BREW</label>
+                      <label class="price-product">IDR 30.000</label>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn-add">Add to Cart</button><br />
+                <button class="btn-ask">Ask a Staff</button>
+              </aside>
+            </div>
+            <div class="col-md-7">
+              <section>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="text1">
+                      Delivery only on <strong>Monday to friday</strong> at
+                      <strong>1 - 7 pm</strong>
+                    </div>
+                    <div class="text2">
+                      Cold brewing is a method of brewing that combines ground
+                      coffee and cool water and uses time instead of heat to
+                      extract the flavor. It is brewed in small batches and
+                      steeped for as long as 48 hours.
+                    </div>
+                    <div class="size">
+                      <label class="text-size">Choose a size</label>
+                      <div class="size-img">
+                        <div class="round-size">R</div>
+                        <div class="round-size">L</div>
+                        <div class="round-size">XL</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="delivery-method">
+                  <label class="text-deliv">Choose Delivery Methods</label>
+                  <div class="btn-deliv">
+                    <button>Dine in</button>
+                    <button>Door Delivery</button>
+                    <button>Pick up</button>
+                  </div>
+                  <div>
+                    <label class="input-label">Set time : </label>
+                    <input
+                      type="text"
+                      placeholder="Enter the time you'll arrived"
+                    />
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="footer-background">
+        <div class="checkout-item">
+          <div class="card">
+            <div class="card-body">
+              <div class="checkout-img">
+                <img src="img/detail-img.png" alt="detail-img" />
+              </div>
+              <div class="checkout-text">
+                <ul class="kind-item">
+                  <li class="item-name">COLD BREW</li>
+                  <li>x1 (Large)</li>
+                  <li>x1 (Regular)</li>
+                </ul>
+              </div>
+              <div class="checkout-total">
+                <button>-</button>
+                <label>2</label>
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="check-out">
+          <button>CHECKOUT</button>
+        </div>
+        <div class="container">
+          <footer>
+            <div class="footer-profile">
+              <ul class="footer-brand">
+                <li class="logo">
+                  <img src="img/coffee-logo.png" alt="coffee-logo" />
+                </li>
+                <li class="text">Coffe Shop</li>
+              </ul>
+              <p class="profile-text">
+                Coffee Shop is a store that sells some good <br />
+                meals, and especially coffee. We provide <br />high quality
+                beans
+              </p>
+              <ul class="footer-medsos">
+                <li>
+                  <img src="img/fb.png" alt="facebook" />
+                </li>
+                <li>
+                  <img src="img/twitter.png" alt="twitter" />
+                </li>
+                <li>
+                  <img src="img/instagram.png" alt="twitter" />
+                </li>
+              </ul>
+              <p class="text-copy">©2020CoffeeStore</p>
+            </div>
+            <ul class="footer-product">
+              <li class="label-product">Product</li>
+              <li>Download</li>
+              <li>Pricing</li>
+              <li>Location</li>
+              <li>Countries</li>
+              <li>Blog</li>
+            </ul>
+            <ul class="footer-engage">
+              <li class="label-engage">Engage</li>
+              <li>Coffee Shop ?</li>
+              <li>FAQ</li>
+              <li>About Us</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Service</li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

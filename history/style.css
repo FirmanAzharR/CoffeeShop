@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Rubik:wght@300;400;500;600;700&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.container-fluid {
+  padding: 0px;
+}
+.container-fluid header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+ul.header-brand li {
+  display: inline-block;
+}
+ul.header-brand li.text {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+ul.header-brand li.logo {
+  margin-right: 8px;
+}
+
+ul.header-menu li {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  padding-right: 30px;
+  width: auto;
+}
+.header-menu li.img-user img {
+  border-radius: 50%;
+}
+.img-search input {
+  border-radius: 30px;
+  background-color: #efeeee;
+  border: none;
+  text-align: center;
+}
+.img-search input:focus {
+  outline: none;
+  color: #6a4029;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(110, 62, 33, 0.274);
+  background-color: #dbdbdb;
+}
+.img-search img {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/history-bg.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .container {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+main .container .title-history {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  text-shadow: 1px 4px 3px #1b1b1b;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+main .container .btn-option {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 30px;
+}
+.btn-option a {
+  color: white;
+  text-decoration: underline;
+}
+main .container .title-history h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+main .container .title-history h6 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card.card-history {
+  border-radius: 15px;
+  height: 126px;
+  margin-bottom: 20px;
+}
+.card.card-history .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.card-body .image img {
+  border-radius: 50%;
+  width: 95%;
+}
+.card-body .text .item-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+}
+.card-body .text .price-item,
+.status {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  color: #895537;
+}
+
+.card-body .text .status {
+  display: inline-block;
+}
+.card-body .text .status input {
+  margin-left: 100px;
+}
+
+.container footer {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+
+.footer-background {
+  background-color: #f8f8f8;
+}
+
+footer .footer-profile {
+  flex: 4;
+}
+
+footer .footer-product {
+  flex: 1;
+  height: 50px;
+}
+
+footer .footer-engage {
+  flex: 1;
+}
+
+ul.footer-brand li {
+  display: inline-block;
+}
+
+ul.footer-medsos li {
+  display: inline-block;
+  width: 50px;
+}
+
+ul.footer-brand li.text,
+.label-engage,
+.label-product {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.footer-profile p.profile-text {
+  padding-left: 40px;
+  line-height: 30px;
+  font-family: "Rubik", sans-serif;
+  color: #4f5665;
+  font-weight: 400;
+}
+.footer-profile p.text-copy {
+  font-family: "Rubik", sans-serif;
+  padding-left: 40px;
+  color: darkgrey;
+  font-size: 16px;
+}
+footer .footer-product,
+footer .footer-engage {
+  list-style-type: none;
+  line-height: 40px;
+  font-family: "Rubik", sans-serif;
+  color: #4f5665;
+  font-weight: 400;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header ul {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  header ul.header-brand {
+    margin: 20px;
+  }
+  ul.header-brand li.text {
+    font-size: 30px;
+  }
+  ul.header-menu li {
+    padding-top: 20px;
+  }
+  .img-search img {
+    display: none;
+  }
+  /* main */
+  .card.card-history {
+    border-radius: 15px;
+    height: 126px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 15%;
+  }
+  /* end main */
+
+  .container footer {
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  section .card-menu {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  .footer-background {
+    background-color: #f2f2f2;
+  }
+  footer .footer-product,
+  footer .footer-engage {
+    border-top: 1px solid #dbdbdb;
+  }
+}

@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Rubik:wght@300;400;500;600&display=swap");
+.container-fluid header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.container-fluid {
+  padding: 0px;
+}
+header ul.header-brand {
+  margin-left: 10px;
+}
+ul.header-brand li {
+  display: inline-block;
+}
+ul.header-brand li {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul.header-menu li {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  padding-right: 30px;
+  width: auto;
+}
+.header-menu li.img-user img {
+  border-radius: 50%;
+}
+.img-search input {
+  border-radius: 30px;
+  background-color: #efeeee;
+  border: none;
+  text-align: center;
+}
+.img-search input:focus {
+  outline: none;
+  color: #6a4029;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(110, 62, 33, 0.274);
+  background-color: #dbdbdb;
+}
+.img-search img {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container-fluid main {
+  display: flex;
+  border-top: 1px solid #dbdbdb;
+}
+
+main aside {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+aside .aside-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #6a4029;
+}
+
+aside .aside-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  margin-bottom: 70px;
+}
+
+aside .aside-card {
+  background-color: #88b787;
+  border-radius: 20px;
+  width: 335px;
+  height: 109px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.card-item .card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+}
+
+aside .aside-btn {
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background-color: #6a4029;
+  color: white;
+}
+
+aside .aside-terms {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 100px;
+}
+.aside-terms ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.flex-main section {
+  border-left: 1px solid #dbdbdb;
+  padding-left: 70px;
+  /* padding-right: px; */
+}
+main .flex-main {
+  flex: 3;
+}
+
+section ul.section-menu li {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 60px;
+}
+
+.note {
+  font-family: "Poppins", sans-serif;
+  color: #6a4029;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section .card-menu {
+  -webkit-box-shadow: 3px 3px 30px 0px #ccc;
+  -moz-box-shadow: 3px 3px 30px 0px #ccc;
+  box-shadow: 3px 3px 30px 0px #ccc;
+  border-radius: 30px;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.card-menu .name-menu {
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.price-menu {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #6a4029;
+  text-align: center;
+  padding-left: 20px;
+}
+section .list-menu {
+  padding-left: 30px;
+  padding-right: 70px;
+}
+
+.card-menu img {
+  border-radius: 50%;
+  position: relative;
+  left: 6px;
+  bottom: 30px;
+  width: 90%;
+}
+
+.container footer {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-background {
+  background-color: #f8f8f8;
+}
+
+footer .footer-profile {
+  flex: 4;
+}
+
+footer .footer-product {
+  flex: 1;
+  height: 50px;
+}
+
+footer .footer-engage {
+  flex: 1;
+}
+
+ul.footer-brand li {
+  display: inline-block;
+}
+
+ul.footer-medsos li {
+  display: inline-block;
+  width: 50px;
+}
+
+ul.footer-brand li.text,
+.label-engage,
+.label-product {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.footer-profile p.profile-text {
+  padding-left: 40px;
+  line-height: 30px;
+  font-family: "Rubik", sans-serif;
+  color: #4f5665;
+  font-weight: 400;
+}
+.footer-profile p.text-copy {
+  font-family: "Rubik", sans-serif;
+  padding-left: 40px;
+  color: darkgrey;
+  font-size: 16px;
+}
+footer .footer-product,
+footer .footer-engage {
+  list-style-type: none;
+  line-height: 40px;
+  font-family: "Rubik", sans-serif;
+  color: #4f5665;
+  font-weight: 400;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header ul {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  header ul.header-brand {
+    margin: 20px;
+  }
+  ul.header-brand li.text {
+    font-size: 30px;
+  }
+  ul.header-menu li {
+    padding-top: 20px;
+  }
+  .img-search img {
+    display: none;
+  }
+  .container-fluid main {
+    flex-direction: column;
+    align-items: center;
+  }
+  aside .aside-text {
+    margin-bottom: 20px;
+  }
+  aside .aside-btn {
+    margin-top: 20px;
+  }
+  aside .aside-terms {
+    display: none;
+  }
+  .flex-main section {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  section ul.section-menu li {
+    font-size: 17px;
+    padding: 10px;
+  }
+  .container footer {
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  section .card-menu {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  .card-menu .name-menu {
+    font-weight: 700;
+  }
+  .price-menu {
+    padding-left: 0px;
+  }
+  .card-menu img {
+    border-radius: 50%;
+    position: relative;
+    left: 0px;
+    bottom: 30px;
+    width: 90%;
+  }
+  .footer-background {
+    background-color: #f2f2f2;
+  }
+  footer .footer-product,
+  footer .footer-engage {
+    border-top: 1px solid #dbdbdb;
+  }
+}

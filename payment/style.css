@@ -41,6 +41,16 @@ ul.header-menu li {
   border: none;
   text-align: center;
 }
+.img-chat span.badge {
+  width: 15px;
+  height: 15px;
+  background-color: #6a4029;
+  color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 28px;
+  right: 15.5%;
+}
 .img-search input:focus {
   outline: none;
   color: #6a4029;
@@ -439,5 +449,9 @@ footer .footer-engage {
     height: auto;
     padding: 20px;
     background-color: #f47b0a;
+  }
+  .img-chat span.badge {
+    top: 175px;
+    right: 38%;
   }
 }

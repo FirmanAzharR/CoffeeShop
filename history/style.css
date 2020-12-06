@@ -32,6 +32,16 @@ ul.header-menu li {
   padding-right: 30px;
   width: auto;
 }
+ul.header-menu li a {
+  text-decoration: none;
+  color: #6a4029;
+}
+ul.header-menu li a:hover {
+  font-weight: 500;
+}
+ul.header-menu li.cart a {
+  font-weight: bold;
+}
 .header-menu li.img-user img {
   border-radius: 50%;
 }
